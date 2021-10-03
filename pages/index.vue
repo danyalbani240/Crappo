@@ -1,6 +1,7 @@
 <template>
   <div id="root">
-    <Navbar />
+    <Header />
+    <why-us />
   </div>
 </template>
 
