@@ -1,7 +1,8 @@
 <template>
   <div id="root">
     <Header />
-    <why-us />
+    <WhyUs />
+    <CrappoSecurity />
   </div>
 </template>
 

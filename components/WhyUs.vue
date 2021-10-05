@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary text-Neutral-white w-11/12 mx-auto pt-20">
+  <div class="bg-primary text-Neutral-white w-11/12 mx-auto py-10">
     <div class="flex justify-between">
       <div class="flex items-center">
         <div
@@ -42,8 +42,9 @@
       <div class="flex flex-col ml-10">
         <p class="text-5xl mb-5">Why you should choose CRAPPO</p>
         <p class="my-5 text-Neutral-Grey5">
-          Experience the next generation cryptocurrency <br> platform. No financial
-          borders, extra fees, and fake <br> reviews.
+          Experience the next generation cryptocurrency <br />
+          platform. No financial borders, extra fees, and fake <br />
+          reviews.
         </p>
         <div class="mt-5">
           <Button blue="true" name="Learn More" />
@@ -52,8 +53,3 @@
     </div>
   </div>
 </template>
-<script>
-export default {
-  name: "WhyUs",
-};
-</script>

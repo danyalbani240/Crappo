@@ -33,11 +33,6 @@
     
   </div>
 </template>
-<script>
-export default {
-  name: "Header",
-};
-</script>
 <style lang="scss">
 .hero {
   height: 27rem;
