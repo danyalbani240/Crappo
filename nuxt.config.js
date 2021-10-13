@@ -5,4 +5,6 @@ export default {
     titleTemplate: "Crappo: %s",
   },
   css: ["~layouts/global.css"],
+  plugins: ["~/plugins/Trends.js"],
+
 };

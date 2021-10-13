@@ -3,6 +3,7 @@
     <Header />
     <WhyUs />
     <CrappoSecurity />
+    <Features />
   </div>
 </template>
 

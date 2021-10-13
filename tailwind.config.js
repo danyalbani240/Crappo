@@ -19,6 +19,7 @@ module.exports = {
         "Neutral-Grey4": "#BDBDBD",
         "Neutral-Grey5": "#E0E0E0",
         "Neutral-Grey6": "#F2F2F2",
+        "Neutral-Gradient": "#FAFBFF",
       },
     },
   },
