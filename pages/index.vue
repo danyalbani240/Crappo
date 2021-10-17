@@ -5,6 +5,7 @@
     <CrappoSecurity />
     <Features />
     <Start-mining />
+    <Footer />
   </div>
 </template>
 
