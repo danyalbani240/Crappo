@@ -1,18 +1,23 @@
 <template>
   <div class="start-mining">
     <div
-      class="mask-group flex text-Neutral-white w-11/12 mx-auto justify-between"
+      class="mask-group flex text-Neutral-white w-11/12 mx-auto justify-between bg-accent px-10 rounded-xl py-12"
     >
-      <div class="flex flex-col items-center">
-        <p>Start mining now</p>
-        <p>
+      <div class="flex flex-col">
+        <p class="text-3xl font-extrabold">Start mining now</p>
+        <p class="my-5">
           Join now with CRAPPO to get the latest news <br />
           and start mining now
         </p>
       </div>
       <div class="flex items-center">
-        <Input :model="email" placeholder="Enter your email" />
-        <Button name="Subscribe" white="true" />
+        <Input
+          placeholderWhite="true"
+          :model="email"
+          placeholder="Enter your email"
+        />
+        <div class="mx-5"></div>
+        <Button tblack="true" name="Subscribe" white="true" />
       </div>
     </div>
   </div>

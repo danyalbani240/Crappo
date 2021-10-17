@@ -1,6 +1,6 @@
 <template>
   <button
-    class="text-Neutral-white  rounded-full inline-flex items-center"
+    class="rounded-full inline-flex items-center"
     :class="{
       'bg-accent': blue,
       'bg-Neutral-Green': green,
@@ -8,6 +8,8 @@
       'py-4 px-8': !minimal,
       'bg-Neutral-Red': red,
       'bg-Neutral-white': white,
+      'text-black': tblack,
+      'text-Neutral-white': !tblack,
     }"
   >
     {{ name }}
@@ -19,6 +21,6 @@
 <script>
 export default {
   name: "Button",
-  props: ["name", "blue", "next", "green", "minimal", "red", "white"],
+  props: ["name", "blue", "next", "green", "minimal", "red", "white", "tblack"],
 };
 </script>
