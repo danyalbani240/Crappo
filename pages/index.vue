@@ -4,11 +4,11 @@
     <WhyUs />
     <CrappoSecurity />
     <Features />
+    <Start-mining />
   </div>
 </template>
 
 <script>
-
 export default {
   head() {
     return {

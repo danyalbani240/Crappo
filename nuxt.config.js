@@ -7,7 +7,7 @@ export default {
   css: ["~layouts/global.css"],
   plugins: [
     "~/plugins/Trends.js",
-    { src: "~/plugins/vue-apexchart.js", ssr: false, mode: "client" },
+    { src: "~/plugins/vue-apexchart.client.js", ssr: false, mode: "client" },
   ],
   build: {
     transpile: ["vue-apexchart.js"],

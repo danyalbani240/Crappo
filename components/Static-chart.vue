@@ -1,11 +1,13 @@
 <template>
   <div>
-    <apexchart
-      type="candlestick"
-      height="350"
-      :options="chartOptions"
-      :series="series"
-    ></apexchart>
+    <client-only>
+      <apexchart
+        type="candlestick"
+        height="350"
+        :options="chartOptions"
+        :series="series"
+      ></apexchart
+    ></client-only>
   </div>
 </template>
 
@@ -317,7 +319,7 @@ export default {
   border-radius: 0.75rem;
   border-top-right-radius: 0;
   border-top-right-radius: 0;
-  border-bottom-left-radius:0 ;
-  border-top-left-radius:0 ;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
 </style>

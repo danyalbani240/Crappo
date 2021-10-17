@@ -7,6 +7,7 @@
       'py-3 px-6': minimal,
       'py-4 px-8': !minimal,
       'bg-Neutral-Red': red,
+      'bg-Neutral-white': white,
     }"
   >
     {{ name }}
@@ -18,6 +19,6 @@
 <script>
 export default {
   name: "Button",
-  props: ["name", "blue", "next", "green", "minimal", "red"],
+  props: ["name", "blue", "next", "green", "minimal", "red", "white"],
 };
 </script>
