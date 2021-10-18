@@ -1,11 +1,11 @@
 <template>
   <div id="root">
     <Header />
-    <!-- <WhyUs />
+    <WhyUs />
     <CrappoSecurity />
     <Features />
     <Start-mining />
-    <Footer /> -->
+    <Footer />
   </div>
 </template>
 
