@@ -2,7 +2,7 @@
   <div class="flex flex-col ">
     <div
       style="background-color:#35068C;"
-      class="flex justify-between px-12 w-12/12 mb-5 rounded-tr-xl rounded-br-xl text-Neutral-white py-6"
+      class="flex justify-between px-4 lg:px-12 w-12/12 mb-5 rounded-xl lg:rounded-tr-xl rounded-br-xl text-Neutral-white py-6"
     >
       <div>
         <p class="flex items-center font-extrabold">
@@ -77,10 +77,10 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col w-11/12">
+    <div class="flex flex-col w-12/12 lg:w-11/12">
       <div
         style="background-color:#35068C;"
-        class="flex w-full text-Neutral-white rounded-tr-xl justify-between px-10 py-6"
+        class="flex w-full text-Neutral-white rounded-t-xl md:rounded-tr-xl justify-between px-4 md:px-10 py-6"
       >
         <div class="flex">
           <div class="flex items-center">
@@ -120,7 +120,7 @@
             <p class="text-sm text-Neutral-Grey4">Volume (24h)</p>
           </div>
         </div>
-        <div>
+        <div class="flex">
           <Button name="Buy" green="true" minimal="true" />
           <Button class="ml-2" name="Sell" red="true" minimal="true" />
         </div>

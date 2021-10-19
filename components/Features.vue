@@ -5,8 +5,8 @@
       the infrastructure of your choice
     </p>
     <invest-smart />
-    <!-- <detailed-statics />
-    <Growprofit /> -->
+    <detailed-statics />
+    <Growprofit />
   </div>
 </template>
 <style scoped></style>

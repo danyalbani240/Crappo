@@ -1,6 +1,6 @@
 <template>
-  <div class="w-11/12 mx-auto mt-52 flex items-center">
-    <div class="flex flex-col text-Neutral-white ml-40">
+  <div class="w-11/12 mx-auto mt-52 flex-col xl:flex-row flex items-center">
+    <div class="flex flex-col text-Neutral-white md:ml-40">
       <p class="text-2xl font-bold">
         Grow your profit and track <br />
         your investments
@@ -12,7 +12,7 @@
       </p>
       <div><Button name="Learn More" blue="true" /></div>
     </div>
-    <div>
+    <div class="w-full xl:w-min">
       <List :headers="['', 'Price', 'Change', 'Volume']" :items="items" />
     </div>
   </div>

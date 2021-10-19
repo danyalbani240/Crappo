@@ -2,7 +2,7 @@
   <div
     class="flex flex-col mx-auto w-11/12 bg-primary text-Neutral-white pt-10 "
   >
-    <div class="flex justify-between mb-32">
+    <div class="flex justify-between mb-32 flex-wrap">
       <div><img src="../assets\images\images.png" /></div>
       <div class="flex flex-col">
         <p class="text-Neutral-white text-lg font-extrabold mb-5">Quick Link</p>
@@ -28,7 +28,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col">
+      <div class="flex flex-col self-center my-10 mx-auto md:m-0">
         <p class="text-3xl font-extrabold mb-5">
           We accept following <br />
           payment systems
@@ -120,7 +120,7 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-between">
+    <div class="flex flex-col md:flex-row mx-auto md:mx-0 justify-between">
       <p>©2022 CRAPPO. All rights reserved</p>
       <div class="flex">
         <div class="item">

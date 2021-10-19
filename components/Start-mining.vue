@@ -1,7 +1,7 @@
 <template>
   <div class="start-mining">
     <div
-      class="mask-group flex text-Neutral-white w-11/12 mx-auto justify-between bg-accent px-10 rounded-xl py-12"
+      class="mask-group items-center md:items-start flex-col md:flex-row flex text-Neutral-white w-11/12 mx-auto justify-between bg-accent px-10 rounded-xl py-12"
     >
       <div class="flex flex-col">
         <p class="text-3xl font-extrabold">Start mining now</p>
