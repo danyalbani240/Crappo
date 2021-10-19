@@ -4,8 +4,8 @@
     <WhyUs />
     <CrappoSecurity />
     <Features />
-    <Start-mining />
-    <Footer />
+    <!-- <Start-mining />
+    <Footer />  -->
   </div>
 </template>
 

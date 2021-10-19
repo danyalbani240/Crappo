@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary text-Neutral-white w-11/12 mx-auto py-10">
-    <div class="flex justify-between">
+    <div class="flex justify-between flex-wrap">
       <div class="flex items-center">
         <div
           class=" w-16 h-16 bg-Neutral-white rounded-full bg-opacity-10 justify-center items-center flex"
@@ -36,7 +36,9 @@
       </div>
     </div>
     <div class="flex mt-10 justify-between items-center">
-      <div class="w-7/12">
+      <div
+        class="hero-img w-80 md:w-auto absolute md:static mt-5 opacity-40 md:opacity-100 "
+      >
         <img src="../assets\images\why-us.png" alt="" />
       </div>
       <div class="flex flex-col ml-10">
