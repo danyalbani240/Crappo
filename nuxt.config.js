@@ -4,7 +4,7 @@ export default {
   head: {
     titleTemplate: "Crappo: %s",
   },
-  css: ["~layouts/global.css"],
+  css: ["~layouts/global.css", "~/assets/css/style.scss"],
   plugins: [
     "~/plugins/Trends.js",
     { src: "~/plugins/vue-apexchart.client.js", ssr: false, mode: "client" },
