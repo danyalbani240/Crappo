@@ -5,7 +5,7 @@
     <CrappoSecurity />
     <Features />
     <Start-mining />
-    <Footer />
+    <Footer />  
   </div>
 </template>
 

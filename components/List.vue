@@ -1,9 +1,9 @@
 <template>
   <div
     style="background-color:#35068C; "
-    class="flex flex-col px-10 py-6 rounded-xl ml-52 w-full"
+    class="flex flex-col p xl:px-10 py-6 rounded-xl xl:ml-52   w-full mt-10 xl:mt-0"
   >
-    <div class="flex txet-Neutral-white justify-between text-Neutral-white">
+    <div class="flex w-full txet-Neutral-white justify-between text-Neutral-white">
       <p class="flex-1 text-center" v-for="header in headers" :key="header">
         {{ header }}
       </p>
