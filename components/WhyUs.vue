@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary text-Neutral-white w-11/12 mx-auto py-10">
     <div class="flex justify-between flex-wrap">
-      <div class="flex items-center">
+      <div data-aos="fade-right" class="flex items-center">
         <div
           class=" w-16 h-16 bg-Neutral-white rounded-full bg-opacity-10 justify-center items-center flex"
         >
@@ -12,7 +12,7 @@
           <p class="mt-2">Digital Currencyy Exchanged</p>
         </div>
       </div>
-      <div class="flex items-center">
+      <div data-aos="flip-down" class="flex items-center">
         <div
           class="w-16 h-16 bg-Neutral-white rounded-full bg-opacity-10 justify-center items-center flex"
         >
@@ -23,7 +23,7 @@
           <p class="mt-2">Trusted Wallets Investor</p>
         </div>
       </div>
-      <div class="flex items-center mr-2">
+      <div data-aos="fade-left" class="flex items-center mr-2">
         <div
           class="w-16 h-16 bg-Neutral-white rounded-full bg-opacity-10 justify-center items-center flex"
         >
@@ -37,11 +37,12 @@
     </div>
     <div class="flex mt-10 justify-between items-center">
       <div
+        data-aos="fade-right"
         class="hero-img w-80 md:w-auto absolute md:static mt-5 opacity-40 md:opacity-100 "
       >
         <img src="../assets\images\why-us.png" alt="" />
       </div>
-      <div class="flex flex-col ml-10">
+      <div class="flex flex-col ml-10 " data-aos="zoom-in">
         <p class="text-5xl mb-5">Why you should choose CRAPPO</p>
         <p class="my-5 text-Neutral-Grey5">
           Experience the next generation cryptocurrency <br />
@@ -55,3 +56,6 @@
     </div>
   </div>
 </template>
+<script>
+export default {};
+</script>

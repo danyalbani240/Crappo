@@ -2,7 +2,7 @@
   <div
     class="w-11/12 flex mx-auto justify-between flex-col md:flex-row txet-center md:text-justify  mt-20"
   >
-    <div class="flex flex-col items-center md:items-start mt-10">
+    <div data-aos="fade-right" class="flex flex-col items-center md:items-start mt-10">
       <p class="text-Neutral-white text-2xl font-bold">Invest Smart</p>
       <p class="text-Neutral-Grey5 text-center my-5">
         Get full statistic information about the behaviour of <br />
@@ -10,7 +10,7 @@
       </p>
       <div><Button name="Learn More" blue="true" /></div>
     </div>
-    <div class="w-12/12 mt-10 md:mt-0 md:w-5/12 lg:mr-28">
+    <div data-aos="fade-left" class="w-12/12 mt-10 md:mt-0 md:w-5/12 lg:mr-28">
       <div class="w-12/12 flex-col md:flex-row relative">
         <Trendchartcard />
         <div class="subcard px-4 py-5 inline-flex flex-col ">

@@ -3,8 +3,8 @@
     class="flex flex-col mx-auto w-11/12 bg-primary text-Neutral-white pt-10 "
   >
     <div class="flex justify-between mb-32 flex-wrap">
-      <div><img src="../assets\images\images.png" /></div>
-      <div class="flex flex-col">
+      <div data-aos="fade-right"><img src="../assets\images\images.png" /></div>
+      <div data-aos="fade-down" class="flex flex-col">
         <p class="text-Neutral-white text-lg font-extrabold mb-5">Quick Link</p>
         <div class="flex flex-col">
           <p class="text-Neutral-Grey6 py-2">Home</p>
@@ -14,7 +14,7 @@
           <p class="text-Neutral-Grey6 py-2">Contact</p>
         </div>
       </div>
-      <div class="flex flex-col">
+      <div data-aos="fade-down" class="flex flex-col">
         <p class="text-Neutral-white mb-5 font-extrabold text-lg">Resources</p>
         <div class="flex flex-col">
           <p class="text-Neutral-Grey6 py-2">
@@ -28,7 +28,10 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col self-center my-10 mx-auto md:m-0">
+      <div
+        data-aos="fade-left"
+        class="flex flex-col self-center my-10 mx-auto md:m-0"
+      >
         <p class="text-3xl font-extrabold mb-5">
           We accept following <br />
           payment systems
@@ -121,9 +124,9 @@
       </div>
     </div>
     <div class="flex flex-col md:flex-row mx-auto md:mx-0 justify-between">
-      <p>©2022 CRAPPO. All rights reserved</p>
-      <div class="flex">
-        <div class="item">
+      <p data-aos="fade-up">©2022 CRAPPO. All rights reserved</p>
+      <div data-aos-duration="2000" data-aos="fade-up" class="flex">
+        <div data-aos="flip-left" data-aos-duration="2300" class="item">
           <svg
             width="24"
             height="24"
@@ -137,7 +140,7 @@
             />
           </svg>
         </div>
-        <div class="item">
+        <div data-aos="flip-left" data-aos-duration="2400" class="item">
           <svg
             width="24"
             height="24"
@@ -151,7 +154,7 @@
             />
           </svg>
         </div>
-        <div class="item">
+        <div data-aos="flip-left" data-aos-duration="2500" class="item">
           <svg
             width="24"
             height="24"
@@ -165,7 +168,7 @@
             />
           </svg>
         </div>
-        <div class="item">
+        <div data-aos="flip-left" data-aos-duration="2200" class="item">
           <svg
             width="24"
             height="24"
@@ -179,7 +182,7 @@
             />
           </svg>
         </div>
-        <div class="item">
+        <div data-aos="flip-left" data-aos-duration="2600" class="item">
           <svg
             width="24"
             height="24"
@@ -206,5 +209,8 @@ export default {};
 .item {
   margin: 20px;
   cursor: pointer;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 1rem;
 }
 </style>

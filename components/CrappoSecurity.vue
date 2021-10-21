@@ -11,6 +11,7 @@
         Exercitation veniam consequat sunt nostrud amet.
       </p>
       <div
+        data-aos="zoom-out"
         class="py-8 w-7/12 flex items-center flex-wrap justify-center bg-Neutral-white mx-auto px-8 mt-24 rounded-t-lg border-b-2"
       >
         <Input placeholder="Enter Your hash rate" :model="my1" />
@@ -22,6 +23,7 @@
     </div>
     <div class="bg-gradient-to-r from-white to-Neutral-Gradient w-full pb-32">
       <div
+        data-aos="zoom-out"
         class="w-7/12 py-10 flex flex-col bg-Neutral-white mx-auto px-8 rounded-b-lg relative shadow-md"
       >
         <p class="text-accent">ESTIMATED 24 HOUR REVENUE:</p>
@@ -36,8 +38,14 @@
         Trade securely and market the high <br />
         growth cryptocurrencies.
       </h3>
-      <div class="flex w-11/12 mx-auto justify-center md:justify-between flex-wrap mt-20">
-        <div class="bg-secondary rounded-xl pt-16 pb-10 px-10">
+      <div
+        class="flex w-11/12 mx-auto justify-center md:justify-between flex-wrap mt-20"
+      >
+        <div
+          data-aos="zoom-in-up"
+          data-aos-duration="500"
+          class="bg-secondary rounded-xl pt-16 pb-10 px-10"
+        >
           <div class="icon">
             <img
               class="mx-auto"
@@ -58,7 +66,11 @@
             <Button blue="true" name="Start mining" next="true" />
           </div>
         </div>
-        <div class="bg-Neutral-white rounded-xl pt-16 pb-10 px-7">
+        <div
+          data-aos="zoom-in-up"
+          data-aos-duration="700"
+          class="bg-Neutral-white rounded-xl pt-16 pb-10 px-7"
+        >
           <div class="icon">
             <img class="mx-auto" src="../assets\images\ETC Logo.png" alt="" />
           </div>
@@ -69,9 +81,19 @@
             Blockchain technology to create and run <br />
             decentralized digital applications.
           </p>
-          <div class="mx-auto mt-10 flex justify-center"><img class="w-12 cursor-pointer text-center border-2 rounded-full"  src="../assets\images\next.png" alt=""></div>
+          <div class="mx-auto mt-10 flex justify-center">
+            <img
+              class="w-12 cursor-pointer text-center border-2 rounded-full"
+              src="../assets\images\next.png"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="bg-Neutral-white rounded-xl pt-16 pb-10 px-7">
+        <div
+          data-aos="zoom-in-up"
+          data-aos-duration="800"
+          class="bg-Neutral-white rounded-xl pt-16 pb-10 px-7"
+        >
           <div class="icon">
             <img class="mx-auto" src="../assets\images\LTC Logo.png" alt="" />
           </div>
@@ -82,7 +104,13 @@
             Cryptocurrency that enables instant <br />
             payments to anyone in the world.
           </p>
-          <div class="mx-auto mt-10 flex justify-center"><img class="w-12 cursor-pointer text-center border-2 rounded-full"  src="../assets\images\next.png" alt=""></div>
+          <div class="mx-auto mt-10 flex justify-center">
+            <img
+              class="w-12 cursor-pointer text-center border-2 rounded-full"
+              src="../assets\images\next.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

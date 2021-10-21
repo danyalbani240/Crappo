@@ -2,10 +2,11 @@
   <div
     class="w-11/12 mx-auto lg:mx-0 flex-col lg:flex-row flex mt-52 items-center "
   >
-    <div class="w-12/12 lg:w-7/12 ">
+    <div data-aos="fade-right" class="w-12/12 lg:w-7/12 ">
       <Static />
     </div>
     <div
+      data-aos="fade-left"
       class="flex flex-col items-center lg:items-start text-Neutral-white lg:ml-40 mt-10 lg:mt-0"
     >
       <p class="text-2xl font-bold">Detailed Statistics</p>
