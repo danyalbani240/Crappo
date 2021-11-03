@@ -1,7 +1,7 @@
 <template>
   <nav class="w-11/12 mx-auto h-14 flex  items-center justify-between">
     <div class="icon relative">
-      <img src="../assets\images\images.png" alt="" />
+      <img src="../static/images.png" alt="" />
     </div>
     <Burger />
     <div class="sm:flex hidden ml-5 ">

@@ -1,9 +1,9 @@
 <template>
   <div
-    class="flex flex-col mx-auto w-11/12 bg-primary text-Neutral-white pt-10 "
+    class="flex flex-col mx-auto w-11/12 bg-primary text-Neutral-white pt-10"
   >
     <div class="flex justify-between mb-32 flex-wrap">
-      <div data-aos="fade-right"><img src="../assets\images\images.png" /></div>
+      <div data-aos="fade-right"><img src="../static/images.png" /></div>
       <div data-aos="fade-down" class="flex flex-col">
         <p class="text-Neutral-white text-lg font-extrabold mb-5">Quick Link</p>
         <div class="flex flex-col">
@@ -17,15 +17,11 @@
       <div data-aos="fade-down" class="flex flex-col">
         <p class="text-Neutral-white mb-5 font-extrabold text-lg">Resources</p>
         <div class="flex flex-col">
-          <p class="text-Neutral-Grey6 py-2">
-            Download Whitepapper
-          </p>
+          <p class="text-Neutral-Grey6 py-2">Download Whitepapper</p>
           <p class="text-Neutral-Grey6 py-2">Smart Token</p>
           <p class="text-Neutral-Grey6 py-2">Blockchain Explorer</p>
           <p class="text-Neutral-Grey6 py-2">Crypto API</p>
-          <p class="text-Neutral-Grey6 py-2">
-            Interest
-          </p>
+          <p class="text-Neutral-Grey6 py-2">Interest</p>
         </div>
       </div>
       <div

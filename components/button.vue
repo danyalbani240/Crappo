@@ -14,7 +14,7 @@
   >
     {{ name }}
     <div class="inline-block ml-4" :class="{ hidden: !next }">
-      <img src="../assets\images\next.png" alt="" />
+      <img src="../static/next.png" alt="" />
     </div>
   </button>
 </template>

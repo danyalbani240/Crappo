@@ -1,4 +1,18 @@
-body{
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"), url(~assets/fonts/Rubik.ttf) format("truetype");
+}
+
+html {
+  font-family: "Rubik";
+}
+.text-mine {
+  font-size: 0.95rem;
+}
+.card {
+  background-color: #35068c;
+}
+body {
   overflow-x: hidden;
 }
 @keyframes Slide_Left {
@@ -32,15 +46,15 @@ body{
   }
 }
 @keyframes Slide_Down {
-    0% {
-      opacity: 0;
-      transform: translateY(100px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
   }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 @keyframes come_Up {
   0% {
     opacity: 0;

@@ -2,7 +2,12 @@
   <div class="pt-20">
     <div class="bg-primary">
       <h3
-        class="text-Neutral-white text-5xl text-center font-extrabold mt-10 mb-15"
+        class="
+          text-Neutral-white text-5xl text-center
+          font-extrabold
+          mt-10
+          mb-15
+        "
       >
         Check how much you can earn
       </h3>
@@ -12,9 +17,22 @@
       </p>
       <div
         data-aos="zoom-out"
-        class="py-8 w-7/12 flex items-center flex-wrap justify-center bg-Neutral-white mx-auto px-8 mt-24 rounded-t-lg border-b-2"
+        class="
+          py-8
+          w-7/12
+          flex
+          items-center
+          flex-wrap
+          justify-center
+          bg-Neutral-white
+          mx-auto
+          px-8
+          mt-24
+          rounded-t-lg
+          border-b-2
+        "
       >
-        <Input placeholder="Enter Your hash rate" :model="my1" />
+        <TheInput placeholder="Enter Your hash rate" :model="my1" />
         <div class="w-full md:w-3/12 my-5 md:ml-10 md:mr-20">
           <Select :options="['javascript', 'css', 'go']" />
         </div>
@@ -24,7 +42,17 @@
     <div class="bg-gradient-to-r from-white to-Neutral-Gradient w-full pb-32">
       <div
         data-aos="zoom-out"
-        class="w-7/12 py-10 flex flex-col bg-Neutral-white mx-auto px-8 rounded-b-lg relative shadow-md"
+        class="
+          w-7/12
+          py-10
+          flex flex-col
+          bg-Neutral-white
+          mx-auto
+          px-8
+          rounded-b-lg
+          relative
+          shadow-md
+        "
       >
         <p class="text-accent">ESTIMATED 24 HOUR REVENUE:</p>
         <p class="my-5 text-3xl font-bold">
@@ -39,7 +67,15 @@
         growth cryptocurrencies.
       </h3>
       <div
-        class="flex w-11/12 mx-auto justify-center md:justify-between flex-wrap mt-20"
+        class="
+          flex
+          w-11/12
+          mx-auto
+          justify-center
+          md:justify-between
+          flex-wrap
+          mt-20
+        "
       >
         <div
           data-aos="zoom-in-up"
@@ -47,11 +83,7 @@
           class="bg-secondary rounded-xl pt-16 pb-10 px-10"
         >
           <div class="icon">
-            <img
-              class="mx-auto"
-              src="../assets\images\Bitcoin Logo.png"
-              alt=""
-            />
+            <img class="mx-auto" src="../static/Bitcoin Logo.png" alt="" />
           </div>
           <p
             class="text-Neutral-white text-4xl font-bold text-center mt-10 mb-5"
@@ -72,7 +104,7 @@
           class="bg-Neutral-white rounded-xl pt-16 pb-10 px-7"
         >
           <div class="icon">
-            <img class="mx-auto" src="../assets\images\ETC Logo.png" alt="" />
+            <img class="mx-auto" src="../static/ETC Logo.png" alt="" />
           </div>
           <p class="text-primary text-4xl font-bold text-center mt-10 mb-5">
             Ethereum<sup class="text-base mx-2 text-Neutral-Grey4">ETC</sup>
@@ -84,7 +116,7 @@
           <div class="mx-auto mt-10 flex justify-center">
             <img
               class="w-12 cursor-pointer text-center border-2 rounded-full"
-              src="../assets\images\next.png"
+              src="../static/next.png"
               alt=""
             />
           </div>
@@ -95,7 +127,7 @@
           class="bg-Neutral-white rounded-xl pt-16 pb-10 px-7"
         >
           <div class="icon">
-            <img class="mx-auto" src="../assets\images\LTC Logo.png" alt="" />
+            <img class="mx-auto" src="../static/LTC Logo.png" alt="" />
           </div>
           <p class="text-primary text-4xl font-bold text-center mt-10 mb-5">
             Litecoin<sup class="mx-2 text-base text-Neutral-Grey4">LTC</sup>
@@ -107,7 +139,7 @@
           <div class="mx-auto mt-10 flex justify-center">
             <img
               class="w-12 cursor-pointer text-center border-2 rounded-full"
-              src="../assets\images\next.png"
+              src="../static/next.png"
               alt=""
             />
           </div>

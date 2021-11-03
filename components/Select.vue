@@ -16,7 +16,12 @@
           open = false;
           $emit('input', option);
         "
-        class="bg-Neutral-Grey6 border-b-2 border-Neutral-Grey3 hover:bg-Neutral-Grey5 transition"
+        class="
+          bg-Neutral-Grey6
+          border-b-2 border-Neutral-Grey3
+          hover:bg-Neutral-Grey5
+          transition
+        "
       >
         {{ option }}
       </div>

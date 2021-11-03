@@ -1,5 +1,17 @@
 <template>
-  <div class="flex w-full itemho text-center justify-center items-center pl-2 py-2 rounded">
+  <div
+    class="
+      flex
+      w-full
+      itemho
+      text-center
+      justify-center
+      items-center
+      pl-2
+      py-2
+      rounded
+    "
+  >
     <div class="flex flex-1 text-left">
       <span v-if="LogoName">
         <img class="w-12" :src="baseSrc + LogoName + '.png'" :alt="LogoName" />
@@ -20,7 +32,7 @@ export default {
   props: ["LogoName", "abbr", "abbreviation", "price", "change", "volume"],
   data() {
     return {
-      baseSrc: "../_nuxt/assets/images/",
+      baseSrc: "../_nuxt/static/",
     };
   },
 };

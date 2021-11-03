@@ -1,8 +1,20 @@
 <template>
-  <div class="flex flex-col ">
+  <div class="flex flex-col">
     <div
-      style="background-color:#35068C;"
-      class="flex justify-between px-4 lg:px-12 w-12/12 mb-5 rounded-xl lg:rounded-tr-xl rounded-br-xl text-Neutral-white py-6"
+      style="background-color: #35068c"
+      class="
+        flex
+        justify-between
+        px-4
+        lg:px-12
+        w-12/12
+        mb-5
+        rounded-xl
+        lg:rounded-tr-xl
+        rounded-br-xl
+        text-Neutral-white
+        py-6
+      "
     >
       <div>
         <p class="flex items-center font-extrabold">
@@ -21,7 +33,7 @@
               />
             </svg>
           </span>
-          <span style="color:#42FFFF;">+7.3%</span>
+          <span style="color: #42ffff">+7.3%</span>
           (+$146)
         </p>
         <p class="text-sm text-Neutral-Grey4 ml-5">Trends</p>
@@ -79,8 +91,18 @@
     </div>
     <div class="flex flex-col w-12/12 lg:w-11/12">
       <div
-        style="background-color:#35068C;"
-        class="flex w-full text-Neutral-white rounded-t-xl md:rounded-tr-xl justify-between px-4 md:px-10 py-6"
+        style="background-color: #35068c"
+        class="
+          flex
+          w-full
+          text-Neutral-white
+          rounded-t-xl
+          md:rounded-tr-xl
+          justify-between
+          px-4
+          md:px-10
+          py-6
+        "
       >
         <div class="flex">
           <div class="flex items-center">
@@ -109,14 +131,14 @@
             </span>
           </div>
           <div class="flex items-center mx-4">
-            <div class="flex flex-col ">
-              <p class="font-bold  text-lg">$6278.13</p>
+            <div class="flex flex-col">
+              <p class="font-bold text-lg">$6278.13</p>
               <p class="text-sm text-Neutral-Grey4">Last price</p>
             </div>
             <p class="text-Neutral-Green ml-2">+2.74%</p>
           </div>
           <div>
-            <p class="font-bold  text-lg">38.25 BTC</p>
+            <p class="font-bold text-lg">38.25 BTC</p>
             <p class="text-sm text-Neutral-Grey4">Volume (24h)</p>
           </div>
         </div>
