@@ -5,6 +5,7 @@
 
 html {
   font-family: "Rubik";
+  overflow-x: hidden;
 }
 .text-mine {
   font-size: 0.95rem;
@@ -12,9 +13,7 @@ html {
 .card {
   background-color: #35068c;
 }
-body {
-  overflow-x: hidden;
-}
+
 @keyframes Slide_Left {
   0% {
     opacity: 0;
