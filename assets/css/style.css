@@ -5,6 +5,7 @@
 
 html {
   font-family: "Rubik";
+  overflow-x: hidden !important ;
 }
 .text-mine {
   font-size: 0.95rem;
@@ -12,9 +13,7 @@ html {
 .card {
   background-color: #35068c;
 }
-body {
-  overflow-x: hidden;
-}
+
 @keyframes Slide_Left {
   0% {
     opacity: 0;
@@ -62,4 +61,11 @@ body {
   100% {
     opacity: 1;
   }
+}
+div.hidden-s::-webkit-scrollbar {
+  display: none !important;
+}
+div.hidden-s {
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
 }
