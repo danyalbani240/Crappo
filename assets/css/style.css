@@ -5,7 +5,7 @@
 
 html {
   font-family: "Rubik";
-  overflow-x: hidden;
+  overflow-x: hidden !important ;
 }
 .text-mine {
   font-size: 0.95rem;
@@ -61,4 +61,11 @@ html {
   100% {
     opacity: 1;
   }
+}
+div.hidden-s::-webkit-scrollbar {
+  display: none !important;
+}
+div.hidden-s {
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
 }
