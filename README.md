@@ -1,5 +1,14 @@
 # crappo
+First Ui Template I Saw At Dribble And I Said Let's Start
+## My Experiences
+Well This Was Actually My First Project After My Intership.
+The Main Technologies That I Used : Nuxt , TailwindCss.
+Crappo Actually is An Crypto Currency Website And This Is Welcome Page.
+I Used Vue ApexChart, Vue TrendJs And AOS(Animated On Scroll) As My PLugins In This Project.
 
+Challenge : 
+Using Apex Chart As Chart Plugin Was Really Hard For Me As My First Time .
+There Was Some SSR And Client Mode Issue That It Was First Handled with Vue-client Then Nuxt Updated Witch Solved The Issue In New Version. 
 ## Build Setup
 
 ```bash
